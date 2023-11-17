@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Footer() {
+const Footer = () => {
   return (
-    <footer>
-    
+    <footer className="bg-dark text-light text-center py-3 " style={{height:"3rem"}}>
+      <p>&copy; 2023 Babar Software Engineer</p>
     </footer>
   );
 }

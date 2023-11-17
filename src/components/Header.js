@@ -5,13 +5,12 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import profile from '../ass/images/card.jpg'
 
 
 function Header() {
   return (
-    <header>
-     <Navbar expand="lg" className="bg-body-tertiary">
+    <header >
+     <Navbar expand="lg" bg="dark" data-bs-theme="dark"  >
       <Container fluid>
         <Navbar.Brand href="#">Babar</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -44,7 +43,7 @@ function Header() {
               className="me-2"
               aria-label="Search"
             /> */}
-            <Button variant="outline-primary">Login</Button>
+            <Button variant="primary">Login</Button>
           </Form>
         </Navbar.Collapse>
       </Container>

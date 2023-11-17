@@ -8,6 +8,9 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import { buyerReview, sellerReview } from './components/Review';
 import Contect from './components/Contect';
+import Footer from './components/Footer';
+
+
 
 
 
@@ -24,14 +27,19 @@ function App() {
       id="uncontrolled-tab-example"
       className="mb-3"
     >
+      
       <Tab eventKey="home" title="Buyer Review">
        {buyerReview()}
       </Tab>
       <Tab eventKey="profile" title="Seller Review">
        {sellerReview()}
+       
       </Tab>
+      
     </Tabs>
+    
     <Contect/>
+    <Footer/>
       
     </div>
   );

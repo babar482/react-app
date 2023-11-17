@@ -6,8 +6,8 @@ export default function Project(){
         <>
         <div className="project-section container">
             <div className="row">
-                <div className="col col-sm-12 col-md-4 col-lg-4">
-                    <Card style={{ width: '18rem' }}>
+                <div className="pro-card col col-sm-12 col-md-4 col-lg-4">
+                    <Card style={{ width: '18rem',marginBottom: "2rem", boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)' }}>
                     <Card.Img variant="top" src={product} />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
@@ -20,7 +20,7 @@ export default function Project(){
                     </Card>
                             </div>
                 <div className="col col-sm-12 col-md-4 col-lg-4">
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '18rem' ,marginBottom: "2rem", boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)' }}>
                     <Card.Img variant="top" src={product} />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
@@ -33,7 +33,7 @@ export default function Project(){
                     </Card>
                 </div>
                 <div className="col col-sm-12 col-md-4 col-lg-4">
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '18rem' ,marginBottom: "2rem", boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)' }}>
                     <Card.Img variant="top" src={product} />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
@@ -48,7 +48,7 @@ export default function Project(){
             </div>
             <div className="row">
                 <div className="col col-sm-12 col-md-4 col-lg-4">
-                    <Card style={{ width: '18rem' }}>
+                    <Card style={{ width: '18rem' ,marginBottom: "2rem", boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
                     <Card.Img variant="top" src={product} />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
@@ -61,7 +61,7 @@ export default function Project(){
                     </Card>
                             </div>
                 <div className="col col-sm-12 col-md-4 col-lg-4">
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '18rem' ,marginBottom: "2rem", boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)' }}>
                     <Card.Img variant="top" src={product} />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
@@ -74,7 +74,7 @@ export default function Project(){
                     </Card>
                 </div>
                 <div className="col col-sm-12 col-md-4 col-lg-4">
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '18rem' ,marginBottom: "2rem", boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)' }}>
                     <Card.Img variant="top" src={product} />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>

@@ -12,7 +12,7 @@ function HeroSection() {
                 <h3 className='subheading'>Software Engineer</h3>
               </div>
               <div className='col col-sm-12 col-md-6 col-lg-6'>
-                <img src={profile} alt="profile" width={300} height={300} style={{ borderRadius: '50%' }}/>
+                <img src={profile} alt="profile" width={250} height={250} style={{ borderRadius: '60%' }}/>
 
               </div>
           </div>

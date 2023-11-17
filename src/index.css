@@ -8,9 +8,20 @@
 
 .hero-setion{
   margin-top: 5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 .project-section{
-  background-color: antiquewhite;
+  background-color: white;
   margin-top: 4rem;
 }
+
+/* .pro-card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: '18rem'
+} */
+
+/* .review-section{
+  align-items: center;
+}
+ */
