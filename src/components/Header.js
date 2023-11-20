@@ -5,6 +5,8 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link } from 'react-router-dom';
+
 
 
 function Header() {
@@ -12,7 +14,7 @@ function Header() {
     <header >
      <Navbar expand="lg" bg="dark" data-bs-theme="dark"  >
       <Container fluid>
-        <Navbar.Brand href="#">Babar</Navbar.Brand>
+      <Navbar.Brand className={'text-white'}><Link to="/">Babar</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -21,7 +23,8 @@ function Header() {
             navbarScroll
           >
             <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Project</Nav.Link>
+            <Nav.Link as={Link} to="/project">Project</Nav.Link>
+
             <NavDropdown title="Review" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#Raction3">Buyer Review</NavDropdown.Item>
               <NavDropdown.Item href="#action4">

@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 export default function Contect(){
     return(
     <>
-
+    
     <Form className='col col-sm-12 col-md-6 col-lg-6'>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
